@@ -14,8 +14,8 @@ class Env:
 		self.observation_space = (283, 430)
 		self.sct = mss()
 		self.sct.compression_level = 9
-		# self.screen_size = (410, 320, 880, 730)  # hidden (1280x1024x24 middle)
-		self.screen_size = (100, 100, 570, 430)  # one monitor
+		self.screen_size = (410, 320, 900, 750)  # hidden (1280x1024x24 middle)
+		# self.screen_size = (100, 100, 570, 430)  # one monitor
 		self.lower_red = np.array([0, 200, 120])
 		self.upper_red = np.array([10, 255, 150])
 		self.lower_yellow = np.array([20, 120, 100])
