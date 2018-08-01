@@ -1,0 +1,5 @@
+opencv-contrib-python
+mss
+numpy
+tensorboardX
+pynput

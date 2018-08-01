@@ -36,7 +36,7 @@ parser.add_argument('--load-model', type=str, default='000000000000', metavar='N
                     help='load previous model')
 parser.add_argument('--start-epoch', type=int, default=0, metavar='N',
                     help='start-epoch number')
-parser.add_argument('--log-directory', type=str, default='/home/sungwon/experiment/alphachu/', metavar='N',
+parser.add_argument('--log-directory', type=str, default='/home/sungwonlyu/experiment/alphachu/', metavar='N',
                     help='log directory')
 parser.add_argument('--history_size', type=int, default=4, metavar='N')
 parser.add_argument('--width', type=int, default=129, metavar='N')
