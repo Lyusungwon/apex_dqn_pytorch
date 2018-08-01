@@ -66,4 +66,4 @@ You can find demo on [youtube](https://www.youtube.com/watch?v=vSkLegIUD98).
 
 #### Total reward
 My score - computer score (-15 ~ 15)
-![img](img/reward.png)
+![img](img/total_reward.png)
