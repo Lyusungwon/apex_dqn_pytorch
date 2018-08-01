@@ -1,12 +1,10 @@
-<img src='http://www.albertpumarola.com/images/2018/GANimation/face1_cyc.gif' align="right" width=90>
-
 # Alphachu: Ape-x DQN implementation of Pikachu Volleyball
 ### [[Demo]](https://www.youtube.com/watch?v=vSkLegIUD98)[ [Paper]](https://arxiv.org/abs/1803.00933) 
 Training agents to learn how to play Pikachu Volleyball. Architecture is based on Ape-x DQN from the [paper](https://arxiv.org/abs/1803.00933). The game is in exe file which makes the whole problem much more complicated than other Atari games. I built python environment to take screenshot of the game to provide as state and detect the start and end of game. I used mss to take screen shot, cv2 to preprocess image, pynput to press the keyboard, and tensorboardX to record log. I created a number of virtual monitors with Xvfb for each actor. To provide different key input to each monitor, the architecture had to be multi-process. A learner only trains on GPU and many(Assume 10) actors collected data from virtual monitors. They communicate through files in log directory. 
 
 As it sounds, it is complicated. My method seems pretty primitive but it was the only way to train pikachu volleyball.
 
-![img](pika.png)
+![img](img/pika.png)
 
 ## Before start
  - I tried this in Ubuntu and Mac. 
